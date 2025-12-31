@@ -29,7 +29,7 @@ function App() {
   if (userData.length > 0) {
     printData = userData.map((elem, idx) => {
       return (
-        <div key={idx} className="w-48 ">
+        <div key={idx}>
           <Card elem={elem} />
         </div>
       );
